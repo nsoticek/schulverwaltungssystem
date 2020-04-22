@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4379bc2e-405c-497d-bf14-a9c7d55780af" name="Default Changelist" comment="" />
+    <list default="true" id="4379bc2e-405c-497d-bf14-a9c7d55780af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1anYJao0LRnjlbMyf932MNhXo2p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,6 +37,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -74,6 +78,10 @@
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
     <state x="-1339" y="-399" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587456138940" />
+    <state x="-1331" y="-296" key="CommitChangelistDialog2" timestamp="1587537178997">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-1331" y="-296" key="CommitChangelistDialog2/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587537178997" />
     <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587462242760">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
@@ -90,10 +98,11 @@
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
     <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587462242760" />
-    <state x="-1360" y="-316" key="SettingsEditor" timestamp="1587459581831">
+    <state x="-1360" y="-316" width="916" height="708" key="SettingsEditor" timestamp="1587537768295">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
-    <state x="-1360" y="-316" key="SettingsEditor/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587459581831" />
+    <state x="-1360" y="-316" key="SettingsEditor/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587537768295" />
+    <state x="-1278" y="-181" width="916" height="708" key="SettingsEditor/0.0.1536.824/-1680.-399.1680.1010@0.0.1536.824" timestamp="1587537714089" />
     <state x="-1136" y="8" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587381697491">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
