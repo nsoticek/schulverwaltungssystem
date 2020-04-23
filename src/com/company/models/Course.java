@@ -7,12 +7,6 @@ public class Course {
     private int maxSeats;
     private Teacher teacher;
 
-    public Course(String name, int maxSeats, Teacher teacher) {
-        this.name = name;
-        this.maxSeats = maxSeats;
-        this.teacher = teacher;
-    }
-
     public Course(int id, String name, int maxSeats, Teacher teacher) {
         this.id = id;
         this.name = name;
