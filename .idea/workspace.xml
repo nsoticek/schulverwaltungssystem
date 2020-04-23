@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4379bc2e-405c-497d-bf14-a9c7d55780af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/dbHelper/CourseDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/dbHelper/DbConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/dbHelper/PersonDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/models/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/Administrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/DbHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/IPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DbHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/IPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/IPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,6 +54,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -70,10 +92,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1035" y="-174" key="#com.intellij.ide.util.MemberChooser" timestamp="1587457868583">
+    <state x="-1035" y="-174" key="#com.intellij.ide.util.MemberChooser" timestamp="1587629314012">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
-    <state x="-1035" y="-174" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587457868583" />
+    <state x="-1035" y="-174" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587629314012" />
     <state x="-1339" y="-399" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587456138940">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
@@ -82,34 +104,150 @@
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
     <state x="-1331" y="-296" key="CommitChangelistDialog2/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587537178997" />
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587462242760">
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587631193081">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587462242760" />
-    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1587462242760">
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587631193081" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1587631193081">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587462242760" />
-    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1587462242760">
+    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587631193081" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1587631193081">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587462242760" />
-    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1587462242760">
+    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587631193081" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1587631193081">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587462242760" />
-    <state x="-1360" y="-316" width="916" height="708" key="SettingsEditor" timestamp="1587537768295">
+    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587631193081" />
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1587557413292">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
-    <state x="-1360" y="-316" key="SettingsEditor/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587537768295" />
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557413292" />
+    <state width="1637" height="336" key="GridCell.Tab.1.center" timestamp="1587557413292">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.center/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557413292" />
+    <state width="1637" height="336" key="GridCell.Tab.1.left" timestamp="1587557413292">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.left/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557413292" />
+    <state width="1637" height="336" key="GridCell.Tab.1.right" timestamp="1587557413292">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.right/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557413292" />
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.2.bottom" timestamp="1587557410351">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.2.bottom/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557410351" />
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.2.center" timestamp="1587557410350">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.2.center/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557410350" />
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.2.left" timestamp="1587557410350">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.2.left/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557410350" />
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.2.right" timestamp="1587557410350">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.2.right/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557410350" />
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.3.bottom" timestamp="1587557410333">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.3.bottom/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557410333" />
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.3.center" timestamp="1587557410332">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.3.center/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557410332" />
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.3.left" timestamp="1587557410332">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.3.left/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557410332" />
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.3.right" timestamp="1587557410333">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="348" height="210" key="GridCell.Tab.3.right/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557410333" />
+    <state x="-1360" y="-316" width="916" height="708" key="SettingsEditor" timestamp="1587537837887">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-1360" y="-316" key="SettingsEditor/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587537837887" />
     <state x="-1278" y="-181" width="916" height="708" key="SettingsEditor/0.0.1536.824/-1680.-399.1680.1010@0.0.1536.824" timestamp="1587537714089" />
     <state x="-1136" y="8" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587381697491">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
     <state x="-1136" y="8" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587381697491" />
+    <state x="-786" y="-61" width="711" height="425" key="dock-window-1" timestamp="1587553874066">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-786" y="-61" width="711" height="425" key="dock-window-1/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587553874066" />
+    <state x="-416" y="-185" width="364" height="335" key="dock-window-10" timestamp="1587555378855">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="364" height="335" key="dock-window-10/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587555378855" />
+    <state x="-416" y="-185" width="364" height="325" key="dock-window-11" timestamp="1587555387392">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="364" height="325" key="dock-window-11/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587555387392" />
+    <state x="-416" y="-185" width="364" height="315" key="dock-window-12" timestamp="1587555422661">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="364" height="315" key="dock-window-12/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587555422661" />
+    <state x="-416" y="-185" width="364" height="305" key="dock-window-13" timestamp="1587555776153">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="364" height="305" key="dock-window-13/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587555776153" />
+    <state x="-416" y="-185" width="364" height="295" key="dock-window-14" timestamp="1587557173589">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="364" height="295" key="dock-window-14/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557173589" />
+    <state x="-416" y="-185" width="364" height="285" key="dock-window-15" timestamp="1587557335123">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="364" height="285" key="dock-window-15/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557335123" />
+    <state x="-416" y="-185" width="364" height="275" key="dock-window-16" timestamp="1587557936909">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="364" height="275" key="dock-window-16/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587557936909" />
+    <state x="-786" y="-61" width="711" height="415" key="dock-window-2" timestamp="1587553900283">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-786" y="-61" width="711" height="415" key="dock-window-2/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587553900283" />
+    <state x="-786" y="-61" width="711" height="405" key="dock-window-3" timestamp="1587553914243">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-786" y="-61" width="711" height="405" key="dock-window-3/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587553914243" />
+    <state x="-786" y="-61" width="711" height="395" key="dock-window-4" timestamp="1587553932333">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-786" y="-61" width="711" height="395" key="dock-window-4/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587553932333" />
+    <state x="-920" y="207" width="711" height="385" key="dock-window-5" timestamp="1587553967213">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-920" y="207" width="711" height="385" key="dock-window-5/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587553967213" />
+    <state x="-416" y="-185" width="286" height="375" key="dock-window-6" timestamp="1587554046903">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="286" height="375" key="dock-window-6/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587554046903" />
+    <state x="-416" y="-185" width="286" height="365" key="dock-window-7" timestamp="1587554203764">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="286" height="365" key="dock-window-7/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587554203764" />
+    <state x="-416" y="-185" width="364" height="355" key="dock-window-8" timestamp="1587554699877">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="364" height="355" key="dock-window-8/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587554699877" />
+    <state x="-416" y="-185" width="364" height="345" key="dock-window-9" timestamp="1587555019630">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-416" y="-185" width="364" height="345" key="dock-window-9/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587555019630" />
     <state x="-1110" y="-131" key="extract.method.dialog" timestamp="1587452315973">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
     <state x="-1110" y="-131" key="extract.method.dialog/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587452315973" />
+    <state x="-1132" y="-259" key="refactoring.ChangeSignatureDialog" timestamp="1587547921773">
+      <screen x="-1680" y="-399" width="1680" height="1010" />
+    </state>
+    <state x="-1132" y="-259" key="refactoring.ChangeSignatureDialog/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587547921773" />
   </component>
 </project>
