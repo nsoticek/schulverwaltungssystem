@@ -68,7 +68,8 @@ public class StudentController implements IPerson {
 
             System.out.println(studentCourses.get(i).getId() + " " + studentCourses.get(i).getName() + " (" +
                     occupiedSeats + "/" + studentCourses.get(i).getMaxSeats() + ") " +
-                    studentCourses.get(i).getTeacher().getFirstName() + " " + studentCourses.get(i).getTeacher().getLastName());
+                    studentCourses.get(i).getTeacher().getFirstName() + " " + studentCourses.get(i).getTeacher().getLastName() +
+                    " Note: " + studentCourses.get(i).getGrade());
         }
     }
 }

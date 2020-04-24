@@ -2,31 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4379bc2e-405c-497d-bf14-a9c7d55780af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Controller/AdministratorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Controller/TeacherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/dbHelper/LoginDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/models/LoginPerson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/Controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/Controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/Controller/TeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/Controller/TeacherController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/dbHelper/CourseDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/dbHelper/CourseDb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/dbHelper/PersonDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/dbHelper/PersonDb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/models/Administrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/models/Administrator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/dbHelper/DbConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/dbHelper/DbConnector.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/models/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/models/Course.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/models/IPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/models/IPerson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/models/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/models/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/models/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/models/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/models/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Übung 1 - Schulverwaltung/com/company/models/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Controller/TeacherController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/dbHelper/CourseDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/dbHelper/CourseDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/dbHelper/PersonDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/dbHelper/PersonDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/models/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/dbHelper/DbConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/dbHelper/DbConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/models/IPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/IPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/models/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/models/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +52,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager">
@@ -95,10 +86,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1035" y="-174" key="#com.intellij.ide.util.MemberChooser" timestamp="1587648435132">
+    <state x="-1035" y="-174" key="#com.intellij.ide.util.MemberChooser" timestamp="1587711845456">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
-    <state x="-1035" y="-174" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587648435132" />
+    <state x="-1035" y="-174" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587711845456" />
     <state x="-1339" y="-399" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587456138940">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
@@ -107,22 +98,22 @@
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
     <state x="-1331" y="-296" key="CommitChangelistDialog2/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587537178997" />
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587650975099">
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1587713859941">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587650975099" />
-    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1587650975098">
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587713859941" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1587713859941">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587650975098" />
-    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1587650975098">
+    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587713859941" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1587713859941">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587650975098" />
-    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1587650975098">
+    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587713859941" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1587713859941">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587650975098" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1536.824/-1680.-399.1680.1010@-1680.-399.1680.1010" timestamp="1587713859941" />
     <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1587649839107">
       <screen x="-1680" y="-399" width="1680" height="1010" />
     </state>

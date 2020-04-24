@@ -16,6 +16,7 @@ public class CourseDb {
     private ArrayList<Student> studentsOfCourse = new ArrayList<>();
 
     public ArrayList<Course> getCourses(DbConnector dbConnector) {
+        // all courses
         if (courses.isEmpty()) {
             fetchCourses(dbConnector);
         }
@@ -23,6 +24,7 @@ public class CourseDb {
     }
 
     public ArrayList<Course> getStudentCourses(int studentId, DbConnector dbConnector) {
+        // all courses of the current student
         if (studentCourses.isEmpty()) {
             fetchStudentCourse(studentId, dbConnector);
         }
@@ -30,10 +32,15 @@ public class CourseDb {
     }
 
     public ArrayList<Student> getStudentsOfCourse(int courseId, DbConnector dbConnector) {
+        // all students of a course
         if (studentsOfCourse.isEmpty()) {
             fetchStudentsOfCourse(courseId, dbConnector);
         }
         return studentsOfCourse;
+    }
+
+    public void setStudentsOfCourseEmpty() {
+        studentsOfCourse.clear();
     }
 
     private void fetchCourses(DbConnector dbConnector) {
@@ -56,8 +63,9 @@ public class CourseDb {
                 String teacherUsername = rs.getString("user_name");
                 String teacherFirstName = rs.getString("first_name");
                 String teacherLastName = rs.getString("last_name");
+                int grade = 0;
 
-                courses.add(new Course(courseId, name, maxSeats, new Teacher(teacherId, teacherFirstName,
+                courses.add(new Course(courseId, name, maxSeats, grade, new Teacher(teacherId, teacherFirstName,
                         teacherLastName, teacherUsername, Role.TEACHER)));
 
             }
@@ -101,7 +109,7 @@ public class CourseDb {
         studentCourses.clear();
 
         ResultSet rs = dbConnector.fetchData("SELECT course.id, course.name, course.teacher, " +
-                "user.user_name, user.first_name, user.last_name, course.max_seats " +
+                "user.user_name, user.first_name, user.last_name, course.max_seats, course_student.mark " +
                 "FROM ((course_student INNER JOIN course ON course_student.course = course.id) " +
                 "INNER JOIN user ON course.teacher = user.id) WHERE course_student.student = " + studentId);
         if (rs == null) {
@@ -116,8 +124,9 @@ public class CourseDb {
                 String teacherFirstName = rs.getString("first_name");
                 String teacherLastName = rs.getString("last_name");
                 int maxSeats = rs.getInt("max_seats");
+                int grade = rs.getInt("mark");
 
-                studentCourses.add(new Course(courseId, name, maxSeats, new Teacher(teacherId, teacherFirstName,
+                studentCourses.add(new Course(courseId, name, maxSeats, grade, new Teacher(teacherId, teacherFirstName,
                         teacherLastName, teacherUsername, Role.TEACHER)));
             }
         } catch (SQLException e) {
@@ -154,7 +163,7 @@ public class CourseDb {
         // delete all old entries
         studentsOfCourse.clear();
 
-        ResultSet rs = dbConnector.fetchData("SELECT user.id, user.first_name, user.last_name, user.user_name " +
+        ResultSet rs = dbConnector.fetchData("SELECT user.id, user.first_name, user.last_name, user.user_name, course_student.mark " +
                 "FROM course_student INNER JOIN user ON course_student.student = user.id " +
                 "WHERE user.role = 'STUDENT' AND course = " + courseId);
         if (rs == null) {
@@ -166,8 +175,9 @@ public class CourseDb {
                 String firstName = rs.getString("first_name");
                 String lastName = rs.getString("last_name");
                 String userName = rs.getString("user_name");
+                int grade = rs.getInt("mark");
 
-                studentsOfCourse.add(new Student(id, firstName, lastName, userName, Role.STUDENT));
+                studentsOfCourse.add(new Student(id, firstName, lastName, userName, grade, Role.STUDENT));
             }
         } catch (SQLException e) {
             System.out.println("Error bei fetchStudentsOfCourse!");
@@ -175,5 +185,26 @@ public class CourseDb {
         } finally {
             dbConnector.closeConnection();
         }
+    }
+
+    public boolean insertGrade(String selectedCourseID, String selectedStudentId, String grade, DbConnector dbConnector) {
+        studentCourses.clear();
+        boolean isInserted = dbConnector.insertData("INSERT INTO `course_student`(`course`, `student`, `mark`) " +
+                "VALUES (" + selectedCourseID + "," + selectedStudentId + "," + grade + ")");
+        if (isInserted) {
+            System.out.println("Daten werden aktualisiert");
+        }
+        fetchCourses(dbConnector);
+        return isInserted;
+    }
+
+    public void deleteStudentFromCourse(String courseID, String studentId, DbConnector dbConnector) {
+        studentCourses.clear();
+        boolean isInserted = dbConnector.delete("DELETE FROM `course_student` " +
+                "WHERE course = " + courseID + " AND student = " + studentId + " AND mark = " + 0 + ";");
+        if (isInserted) {
+            System.out.println("Daten werden aktualisiert");
+        }
+        fetchCourses(dbConnector);
     }
 }

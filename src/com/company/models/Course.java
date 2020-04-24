@@ -6,11 +6,13 @@ public class Course {
     private String name;
     private int maxSeats;
     private Teacher teacher;
+    private int grade;
 
-    public Course(int id, String name, int maxSeats, Teacher teacher) {
+    public Course(int id, String name, int maxSeats, int grade, Teacher teacher) {
         this.id = id;
         this.name = name;
         this.maxSeats = maxSeats;
+        this.grade = grade;
         this.teacher = teacher;
     }
 
@@ -28,5 +30,9 @@ public class Course {
 
     public Teacher getTeacher() {
         return teacher;
+    }
+
+    public int getGrade() {
+        return grade;
     }
 }

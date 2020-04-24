@@ -24,8 +24,12 @@ public class TeacherController implements IPerson {
                 printCourses(courseDb, dbConnector, currentPerson);
                 String selectedCourseID = userInput("Wähle einen Kurs: (ID eingeben) ");
                 String selectedStudentId = userInput("Wähle einen Studenten: (ID eingeben)");
-
-                //TODO NOCH NICHT FERTIG !!
+                String grade = userInput("Note: ");
+                boolean isSuccessfullyInserted = courseDb.insertGrade(selectedCourseID, selectedStudentId, grade, dbConnector);
+                if(isSuccessfullyInserted)
+                    // After inserting there are 2 students with the same data in the database, but one without a grade;
+                    // The student with grade = null will be deleted if the insert was successfully done
+                    courseDb.deleteStudentFromCourse(selectedCourseID, selectedStudentId, dbConnector);
                 break;
             default:
                 System.out.println("Falsche Eingabe!");
@@ -45,15 +49,17 @@ public class TeacherController implements IPerson {
         for (int i = 0; i < courses.size(); i++) {
             int occupiedSeats = getOccupiedSeats(courses.get(i).getId(), courseDb, dbConnector);
             if(courses.get(i).getTeacher().getId() == currentPerson.getId()) {
-                // Get students of the current course
-                ArrayList<Student> studentsOfCourse = courseDb.getStudentsOfCourse(courses.get(i).getId(), dbConnector);
                 // print current course
                 System.out.println(courses.get(i).getId() + " " + courses.get(i).getName() + " " +
                         occupiedSeats + "/" + courses.get(i).getMaxSeats());
+                // Clear all students from arrayList in courseDB
+                courseDb.setStudentsOfCourseEmpty();
+                // Get students of the current course
+                ArrayList<Student> studentsOfCourse = courseDb.getStudentsOfCourse(courses.get(i).getId(), dbConnector);
                 for (int j = 0; j < studentsOfCourse.size(); j++) {
                     // print all students of the current course
                     System.out.println("\t" + studentsOfCourse.get(j).getId() + " " + studentsOfCourse.get(j).getFirstName() +
-                            " " + studentsOfCourse.get(j).getLastName());
+                            " " + studentsOfCourse.get(j).getLastName() + " Note: " + studentsOfCourse.get(j).getGrade());
                 }
             }
         }

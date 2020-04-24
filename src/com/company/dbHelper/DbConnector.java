@@ -50,14 +50,14 @@ public class DbConnector {
         try {
             int result = statement.executeUpdate(sql);
             if (result == 0) {
-                System.out.println("no matching entry found");
+                System.out.println("Keinen passenden Datensatz gefunden");
                 return false;
             } else {
-                System.out.println("delete successful, update your data");
+                System.out.println("Delete erfolgreich!");
                 return true;
             }
         } catch (SQLException e) {
-            System.out.println("could not delete data");
+            System.out.println("Konnte Daten nicht löschen");
             e.printStackTrace();
             return false;
         } finally {

@@ -42,7 +42,7 @@ public class Main {
                 TeacherController.mainMenu(dbConnector, personDb, courseDb, teacher);
         } else if(role.equals(Role.STUDENT)) {
             Student student = new Student(person.getId(), person.getFirstName(),
-                    person.getLastName(), person.getUsername(), person.getRole());
+                    person.getLastName(), person.getUsername(), 0, person.getRole());
             while (true)
                 StudentController.mainMenu(dbConnector, personDb, courseDb, student);
         } else {
